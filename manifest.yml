@@ -1,11 +1,11 @@
 ---
 applications:
-  - name: visual-recognition-demo
+  - name: language-translator-demo
     buildpack: staticfile_buildpack
     instances: 1
     memory: 128M
     routes:
-      - route: visual-recognition-demo.ng.bluemix.net
-      - route: visual-recognition-demo.mybluemix.net
+      - route: language-translator-demo.ng.bluemix.net
+      - route: language-translator-demo.mybluemix.net
     env:
       FORCE_HTTPS: true
