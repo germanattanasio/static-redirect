@@ -1,7 +1,8 @@
 ---
 applications:
   - name: language-translator-demo
-    buildpack: staticfile_buildpack
+    buildpacks:
+      - https://github.com/cloudfoundry/staticfile-buildpack.git
     instances: 1
     memory: 128M
     routes:
