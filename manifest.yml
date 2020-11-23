@@ -1,12 +1,12 @@
 ---
 applications:
-  - name: language-translator-demo
+  - name: discovery-news-demo
     buildpacks:
       - https://github.com/cloudfoundry/staticfile-buildpack.git
     instances: 1
     memory: 128M
     routes:
-      - route: language-translator-demo.ng.bluemix.net
-      - route: language-translator-demo.mybluemix.net
+      - route: discovery-news-demo.ng.bluemix.net
+      - route: discovery-news-demo.mybluemix.net
     env:
       FORCE_HTTPS: true
